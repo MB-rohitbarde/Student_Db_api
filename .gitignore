@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+.venv/
+venv/
+
+# Local environment
+.env
+*.env
+.env.*
+.env.local
+.env.*.local
+
+# Logs and sensitive files
+logs/
+credentials.txt
+
+# SQLite databases and other local data
+app.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Test/coverage caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Type checker/linters caches
+.mypy_cache/
+.ruff_cache/
